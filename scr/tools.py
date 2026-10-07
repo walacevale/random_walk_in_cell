@@ -185,7 +185,7 @@ def calculate_fractal_dimension(image, n_rotations=20, seed=None):
     """
 
     # Prepare image
-    image = np.invert(image)
+    image = np.invert(image) # optional
 
     threshold = threshold_otsu(image)
     binary_image = ((image > threshold) * 255).astype(np.uint8)

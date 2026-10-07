@@ -137,5 +137,5 @@ image = cv2.imread(
 The output is a single `float` representing the mean fractal dimension.
 
 ```text
-Mean D: 1.73'
+Mean D: 1.5740622824533925
 ```
